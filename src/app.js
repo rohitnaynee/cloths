@@ -1,12 +1,11 @@
 import React from 'react';
 
-import HomePage from './components/homepage.component';
+
+import HomePage from './pages/homepage/homepage.component';
+import './app.css';
 
 class App extends React.Component {
-    constructor() {
-        super();
 
-    }
 
     render() {
         return(
